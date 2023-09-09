@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="app.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>First Assignment: Simple Page</title>
+    <style>
+
+        a {
+            color: yellow;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+            background-color: #333;
+            color: #898989;
+            line-height: 1.4;
+            padding: 1em;
+        }
+
+        #header {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color: #141414;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+        h1 {
+            font-size: 3.5em;
+        }
+
+        #main {
+            float: right;
+            width: 22%;
+        }
+
+        #sidebar {
+            float: left;
+            width: 74%;
+        }
+
+        .clr {
+            clear: both;
+        }
+
+        #footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .text-center {
+            display: block;
+            text-align: center;
+        }
+
+        .card {
+            border: 3px dashed #7267DF;
+            background-color: #141414;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        .temperature {
+            font-size: 50px;
+        }
+
+        .location {
+            font-size: 50px;
+        }
+
+        .locationb {
+            font-size: 20px;
+        }
+
+        .pics {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="card">
+        <h1>Animation 2023: Interactive Animations</h1>
+
+    </header>
+
+    <!-- Main Content (left) -->
+    <main id="main">
+        <!-- Welcome Section -->
+        
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>Weather:</h2>
+            <!-- Article One -->
+            <article class="article">
+               
+            </article>
+            <!-- Article Two -->
+            <article class="article">
+            
+                <div class="weather-app">
+                    <div class="left">
+
+                        <div class="temperature"><center><span id="temperature">0</span>&deg;</center></div>
+                        <div class="wind"><center><span id="wind">0</span> | <span id="direction">N</span></center></div>
+
+
+                    </div>
+
+                    <div class="right">
+                        <div class="top">
+                            <center><img id="icon" width="150px" /></center>
+                        </div>
+
+                        <div class="location"><center><span id="location">Unknown</span></center></div>
+                        <div class="locationb"><center><img src="imgs/humidity.png" height="20px" /> | <span id="humidity">Unknown</span></center></div>
+
+                    </div>
+                </div>
+                </p>
+               
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Sidebar (right) -->
+    <aside id="sidebar" class="card">
+        <center><h2>Choose Your Own Adventure</h2></center>
+        <!-- Navigation -->
+        <nav>
+            <ul id="main-nav">
+                <center>
+                    <table id="Table_01">
+                        <tr>
+                            <td colspan="2">
+                                <img src="http://www.professorklein.com/gallery2020/var/resizes/Spring2023/Concorde/04_26/Choose/Brooke/brooke_choose_a.gif?m=1682540303" alt="" width="100%">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="http://www.professorklein.com/gallery2020/var/albums/Spring2023/Concorde/04_26/Choose/129f402b-e472-11ed-8c6a-1f7b7487f092.gif?m=1682591549" alt="" width="100%">
+                            </td>
+                            <td>
+                                <img src="http://www.professorklein.com/gallery2020/var/albums/Spring2023/Concorde/Shari/IsabellaL/IMG_2938.png?m=1681987132" alt="" width="100%">
+                            </td>
+                        </tr>
+                    </table>
+
+                </center>
+
+            </ul>
+        </nav>
+
+
+    </aside>
+
+    <div class="clr"></div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="text-center">&copy; 2023</p>
+    </footer>
+</body>
+</html>
